@@ -18,8 +18,6 @@ public class StringManipulation {
 		
 		System.out.println(chaString());
 		
-		System.out.println(concatMethod());
-		
 		
 		String str6 = "Today it is sunny";
 		String str7 = "Yesterday it was raining";
@@ -61,13 +59,35 @@ public class StringManipulation {
 			 
 		}
 
-//			concat method
-		public static String concatMethod() {
-		   String myStr = "My cat's name is ".concat("Copycat");
-	        return myStr;
+//		
+		
+		
+		
+		public static int strLength() {
+			String str10 = "Good Morning!"; 
+			int stringLength = str10.length();
+			return stringLength;
 		}
 		
+		public static void subString1() {
+		String word = "How are you doing";
 		
+		 System.out.println(word.substring(0, 2));
+		 System.out.println(word.substring(4, 6));
+		 System.out.println(word.substring(8, 10));
+		 System.out.println(word.substring(12, 17));
+		}
+
+		
+		
+		
+		
+	
+
+}
+
+
+
 		
 
 		
